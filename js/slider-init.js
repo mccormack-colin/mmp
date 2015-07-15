@@ -3,7 +3,7 @@ jQuery(document).ready(function ($) {
         $AutoPlay: true,                                    //[Optional] Whether to auto play, to enable slideshow, this option must be set to true, default value is false
         $AutoPlaySteps: 1,                                  //[Optional] Steps to go for each navigation request (this options applys only when slideshow disabled), the default value is 1
         $AutoPlayInterval: 2000,                            //[Optional] Interval (in milliseconds) to go for next slide since the previous stopped if the slider is auto playing, default value is 3000
-        $PauseOnHover: 1,                                   //[Optional] Whether to pause when mouse over if a slider is auto playing, 0 no pause, 1 pause for desktop, 2 pause for touch device, 3 pause for desktop and touch device, 4 freeze for desktop, 8 freeze for touch device, 12 freeze for desktop and touch device, default value is 1
+        $PauseOnHover: 0,                                   //[Optional] Whether to pause when mouse over if a slider is auto playing, 0 no pause, 1 pause for desktop, 2 pause for touch device, 3 pause for desktop and touch device, 4 freeze for desktop, 8 freeze for touch device, 12 freeze for desktop and touch device, default value is 1
 
         $ArrowKeyNavigation: true,   			            //[Optional] Allows keyboard (arrow key) navigation or not, default value is false
         $SlideEasing: $JssorEasing$.$EaseOutQuint,          //[Optional] Specifies easing for right to left animation, default value is $JssorEasing$.$EaseOutQuad
@@ -36,7 +36,15 @@ jQuery(document).ready(function ($) {
             $SpacingY: 4,                                   //[Optional] Vertical space between each item in pixel, default value is 0
             $Orientation: 1,                                //[Optional] The orientation of the navigator, 1 horizontal, 2 vertical, default value is 1
             $Scale: false                                   //Scales bullets navigator or not while slider scale
-        }
+        },
+
+        $SlideshowOptions: { 
+            $Class: $JssorSlideshowRunner$, 
+            $Transitions: [
+                { $Duration:700, $Fade: true, $Opacity:2 }
+            ]
+        }      
+        
     };
 
     //Make the element 'slider1_container' visible before initialize jssor slider.
@@ -48,6 +56,9 @@ jQuery(document).ready(function ($) {
     function ScaleSlider() {
         var parentWidth = jssor_slider1.$Elmt.parentNode.clientWidth;
         if (parentWidth) {
+            if (parentWidth > 900) {
+                parentWidth = 900;        
+            }
             jssor_slider1.$ScaleWidth(parentWidth - 30);
         }
         else
