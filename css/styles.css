@@ -1,64 +1,16 @@
-/*custom styles for fixed header*/
 body {
-/*  min-height: 2000px;*/
   padding-top: 70px;
-  font-size: 2em;
+  text-align: center;
 }
 
-/*starter template css (from bootstrap)*/
-.starter-template {
-  padding: 20px 15px;  
-  background-color: #E6D097;
+.padded {
+  padding: 10px;
 }
 
-h1, h2, h3, h4, h5, p, address {
-	text-align: center;
-}
 
-img {
-    display: block;
-    margin: auto;
-    max-width: 100%;
-    height: auto;
-}
-
-footer {
-	background-color: #542B0B;
-  color: #FFFAF3;
-}
-
-footer h3 {
-  color: #B4BC8B; 
-  font-size: 2.2em;
-  /*orig: #818958;*/
-}
-
-.row.padded {
-  padding: 20px 15px; 
-}
-
-body {
-  background-color: #FFFAF3;
-}
-
-address i {
-  color: #E6D097
-}
-
-a {
-  color: #FFFAF3;
-}
-
-.navbar-custom  {
-  background-color: #542B0B;
-}
-
-nav.navbar-fixed-top {
-  margin-bottom: 0px;
-}
-
-#slider {
-  margin: 0 auto;
-  width: 900px;
-  height: 900px;
+/*temp styles below this line*/
+#slider-gallery img {
+  margin:; 0 auto;
+  max-width: 100%;
+  max-height: 100%;
 }
