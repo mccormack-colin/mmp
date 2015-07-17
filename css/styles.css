@@ -7,11 +7,10 @@ body {
 /*starter template css (from bootstrap)*/
 .starter-template {
   padding: 20px 15px;  
-  background-color: #5bc0de;
-  margin: 25px 0px;
+  background-color: #E6D097;
 }
 
-h1, h2, h3, h4, h5, p {
+h1, h2, h3, h4, h5, p, address {
 	text-align: center;
 }
 
@@ -23,5 +22,35 @@ img {
 }
 
 footer {
-	background-color: orange;
+	background-color: #542B0B;
+  color: #FFFAF3;
+}
+
+footer h3 {
+  color: #B4BC8B; 
+  /*orig: #818958;*/
+}
+
+.row.padded {
+  padding: 20px 15px; 
+}
+
+.light-background {
+  background-color: #FFFAF3;
+}
+
+address i {
+  color: #E6D097
+}
+
+a {
+  color: #FFFAF3;
+}
+
+.navbar-custom  {
+  background-color: #542B0B;
+}
+
+nav.navbar-fixed-top {
+  margin-bottom: 0px;
 }
