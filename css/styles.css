@@ -2,6 +2,7 @@
 body {
 /*  min-height: 2000px;*/
   padding-top: 70px;
+  font-size: 2em;
 }
 
 /*starter template css (from bootstrap)*/
@@ -28,6 +29,7 @@ footer {
 
 footer h3 {
   color: #B4BC8B; 
+  font-size: 2.2em;
   /*orig: #818958;*/
 }
 
@@ -35,7 +37,7 @@ footer h3 {
   padding: 20px 15px; 
 }
 
-.light-background {
+body {
   background-color: #FFFAF3;
 }
 
@@ -53,4 +55,10 @@ a {
 
 nav.navbar-fixed-top {
   margin-bottom: 0px;
+}
+
+#slider {
+  margin: 0 auto;
+  width: 900px;
+  height: 900px;
 }
