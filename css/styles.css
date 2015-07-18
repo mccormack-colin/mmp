@@ -7,6 +7,14 @@ body {
   padding: 10px;
 }
 
+form {
+  text-align: left;
+}
+
+address p {
+  font-size: 18px;
+  margin-bottom: 2px;
+}
 
 /*temp styles below this line*/
 #slider-gallery img {
