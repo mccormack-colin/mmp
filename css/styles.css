@@ -7,7 +7,7 @@ body {
   padding: 10px;
 }
 
-form {
+form, #services p {
   text-align: left;
 }
 
