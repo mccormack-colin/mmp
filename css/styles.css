@@ -8,12 +8,65 @@ body, .form-control {
   background-color: #FFFFF0; 
 }
 
-footer a {
+nav a {
+   color: #502D16;
+}
+
+nav a img {
+  /*padding: 5px 0;*/
+}
+
+/*#mini-logo img {
+  padding: 0;
+  display: inline-block;
+}*/
+
+/* mouse over link */
+nav a:hover,
+/* selected link */
+nav a:active {
+    color: #EAE385;
+}
+
+
+.navbar-mmp {
+  background-color: #94C186;
+}
+
+.form-control:focus {
+  /*border-color: #9CBD86;*/
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(234, 227, 85, 0.6);
+}
+
+h1 {
+  padding-bottom: 20px;
+  color: #94C186;
+  /*#ABCEA1;*/
+  /*#9CBD86; */
+}
+
+/*footer a {
   color: #502D16;
+}*/
+
+footer h2 {
+  color: #94C186;
+  /*#ABCEA1;*/
+  /*#9CBD86; */
+  /*#6B8E23;*/
+}
+
+footer img {
+  padding-top: 20px;
+}
+
+p i.fa {
+  color: #A8968A;
 }
 
 .input-group-addon {
-  background-color: #D2E5CC;
+  background-color: #ABCEA1;
+  /*#D2E5CC;*/
 }
 
 .padded {
@@ -24,6 +77,18 @@ form, #services p {
   text-align: left;
 }
 
+button.btn-mmp {
+  background-color: #ABCEA1;
+}
+
+.btn-mmp:hover, .btn-mmp:focus, .btn-mmp:active, .btn-mmp.active, .open > .dropdown-toggle.btn-mmp,
+.nav>li>a:hover, .nav>li>a:focus {
+ background-color: #C3DCBC; 
+ color: #502D16;
+ /*#D2E5CC;  */
+ /*#B7D5AE;*/
+}
+
 address p {
   font-size: 18px;
   margin-bottom: 2px;
@@ -31,6 +96,25 @@ address p {
 
 #services img {
   text-align: center;
+}
+
+/*#copyright .container{
+  border-top: 1px solid #EEEEEE;
+}*/
+
+#copyright hr {
+  margin-bottom: 0px;
+}
+
+/* unvisited link */
+a.a-mmp:link, 
+/* visited link */
+a.a-mmp:visited,
+/* mouse over link */
+a.a-mmp:hover,
+/* selected link */
+a.a-mmp:active {
+    color: #502D16;
 }
 
 /*temp styles below this line*/

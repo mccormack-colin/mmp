@@ -34,14 +34,17 @@
 <body>
 
     <!-- Fixed navbar -->
-    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <nav class="navbar navbar-mmp navbar-fixed-top" role="navigation">
       <div class="container">
         <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <button type="button" class="navbar-toggle collapsed btn-mmp" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
             <span class="sr-only">Toggle navigation</span>
             <span>MENU</span>
           </button>
-          <a class="navbar-brand" href="index.html">Mandi McCormack Photography</a>
+          <a id="mini-logo" class="navbar-brand" href="index.html">
+            <!-- <img class="img-responsive" width="50px" src="img/weblogo-mini.png"> -->
+            &nbsp;Mandi McCormack Photography
+          </a> 
         </div>
         <div id="navbar" class="navbar-collapse collapse pull-right-sm-up">
           <ul class="nav navbar-nav">
@@ -56,7 +59,7 @@
     </nav>
 
     
-    <section id="debug">
+<!--     <section id="debug">
       <div class="container">
         <div class="row">
           <div class="visible-xs-block">
@@ -73,7 +76,7 @@
           </div>  
         </div>    
       </div>
-    </section>  
+    </section>   -->
     
 
     <section id="marketing-statement">
@@ -97,19 +100,19 @@
 
         <div class="row">
           <div class="col-xs-12 col-md-4">
-            <a href="sessions/maternity">
+            <a href="sessions/maternity" class="a-mmp">
               <img class="center-block img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
               <h4>Maternity</h4>
             </a>
           </div>
           <div class="col-xs-12 col-md-4">
-            <a href="sessions/newborn">
+            <a href="sessions/newborn" class="a-mmp">
               <img class="center-block img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
               <h4>Newborn</h4>
             </a>
           </div>
           <div class="col-xs-12 col-md-4">
-            <a href="sessions/baby">
+            <a href="sessions/baby" class="a-mmp">
               <img class="center-block img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
               <h4>Baby</h4>
             </a>
@@ -118,13 +121,13 @@
 
         <div class="row">
           <div class="col-xs-12 col-md-4 col-md-offset-2">
-            <a href="sessions/family">
+            <a href="sessions/family" class="a-mmp">
               <img class="center-block img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
               <h4>Family</h4>
             </a>
           </div>
           <div class="col-xs-12 col-md-4">
-            <a href="sessions/pets">
+            <a href="sessions/pets" class="a-mmp">
               <img class="center-block img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
               <h4>Pets</h4>
             </a>
@@ -149,14 +152,14 @@
                 <!-- <label for="inputName">Name</label> -->
                 <div class="input-group">
                   <span class="input-group-addon"><span class="fa fa-user"></span></span>
-                  <input type="text" class="form-control" id="inputName" placeholder="Name">
+                  <input type="text" class="form-control" id="inputName" placeholder="Name" required="required">
                 </div>
               </div> 
               <div class="form-group">
                 <!-- <label for="inputEmail">Email Address</label> -->
                 <div class="input-group">
                   <span class="input-group-addon"><span class="fa fa-envelope"></span></span>
-                  <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+                  <input type="email" class="form-control" id="inputEmail" placeholder="Email" required="required">
                 </div>
               </div>  
               <div class="form-group">
@@ -167,9 +170,9 @@
                 </div>
               </div>  
               <div class="form-group">
-                <textarea class="form-control" rows="5" id="inputMessage" placeholder="Your Message"></textarea>
+                <textarea class="form-control" rows="5" id="inputMessage" placeholder="Your Message" required="required"></textarea>
               </div>
-            <button type="submit" class="btn btn-default btn-block">Send</button>
+            <button type="submit" class="btn btn-mmp btn-block">Send</button>
             </form>
           </div>       
         </div>  
@@ -183,18 +186,17 @@
 
         <div class="row padded">
           <div class="col-xs-12 col-sm-6 col-md-4 pull-left-xs">
-            <h2>Mandi McCormack</h2>
-            <p>Logo Here</p>
+            <a href="index.html"><img src="img/weblogo.png" alt="Mandi McCormack Photography Logo" class="img-responsive"/></a>
           </div>
-          <div class="col-xs-12 col-sm-6 col-md-4 pull-right-xs">
+          <div class="col-xs-12 col-sm-6 col-md-4 pull-right-xs footer-middle">
             <h2>Contact Me</h2>
             <address>
               <p><i class="fa fa-map-marker"></i>&nbsp;Natick, MA 01760</p>
               <p><i class="fa fa-phone"></i>&nbsp;(508) 834-9984</p>
-              <p><i class="fa fa-envelope"></i>&nbsp;<a href="mailto:mandimccormackphotography@gmail.com">Mandi Mccormack Photography</a></p>
+              <p><i class="fa fa-envelope"></i>&nbsp;<a class="a-mmp" href="mailto:mandimccormackphotography@gmail.com">Mandi Mccormack Photography</a></p>
             </address>
           </div>
-          <div class="col-xs-12 col-md-4">
+          <div class="col-xs-12 col-md-4 footer-last">
             <h2>Stay Connected</h2>
             <div>
               <ul class="list-inline center-block text-center">
@@ -219,19 +221,26 @@
               </ul>
             </div>
           </div>
-        </div> 
+        </div>         
       </div>
     </footer>
 
-    <div class="container">
-      <div class="row">
-        <div>
-          <h5>
-            <small>Copyright &copy; 2015 Mandi McCormack Photography. All Rights Reserved</small>
-          </h5>
-        </div>    
+
+
+    <section id="copyright">
+      <div class="container">
+
+        <hr />  
+
+        <div class="row">
+          <div>
+            <h5>
+              <small>Copyright &copy; 2015 Mandi McCormack Photography. All Rights Reserved</small>
+            </h5>
+          </div>    
+        </div>
       </div>
-    </div>
+    </section>
 
 </body>
 </html>
