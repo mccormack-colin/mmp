@@ -1,3 +1,14 @@
+.navbar-brand img {
+  display: inline-block;
+}
+
+.navbar-brand,
+.navbar-nav li a {
+    line-height: 75px;
+    height: 75px;
+    padding-top: 0;
+}
+
 body {
   padding-top: 70px;
   text-align: center;
@@ -25,7 +36,9 @@ nav a img {
 nav a:hover,
 /* selected link */
 nav a:active {
-    color: #EAE385;
+    color: #C3DCBC; 
+    /*#EAE385;*/
+
 }
 
 
@@ -40,7 +53,7 @@ nav a:active {
 
 h1 {
   padding-bottom: 20px;
-  color: #94C186;
+  /*color: #94C186;*/
   /*#ABCEA1;*/
   /*#9CBD86; */
 }
@@ -50,7 +63,7 @@ h1 {
 }*/
 
 footer h2 {
-  color: #94C186;
+  /*color: #94C186;*/
   /*#ABCEA1;*/
   /*#9CBD86; */
   /*#6B8E23;*/
