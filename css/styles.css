@@ -19,6 +19,15 @@ body, .form-control {
   background-color: #FFFFF0; 
 }
 
+
+section#image-slider {
+  padding-top: 10px;
+}
+
+#slider1_container {
+  margin: 0 auto;
+}
+
 nav a {
    color: #502D16;
 }
