@@ -1,4 +1,4 @@
-.navbar-brand img {
+/*.navbar-brand img {
   display: inline-block;
 }
 
@@ -8,9 +8,9 @@
     height: 75px;
     padding-top: 0;
 }
-
+*/
 body {
-  padding-top: 70px;
+  padding-top: 60px;
   text-align: center;
   color: #502D16;
 }
@@ -32,21 +32,11 @@ nav a {
    color: #502D16;
 }
 
-nav a img {
-  /*padding: 5px 0;*/
-}
 
-/*#mini-logo img {
-  padding: 0;
-  display: inline-block;
-}*/
 
-/* mouse over link */
 nav a:hover,
-/* selected link */
 nav a:active {
     color: #C3DCBC; 
-    /*#EAE385;*/
 
 }
 

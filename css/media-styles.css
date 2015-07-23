@@ -1,13 +1,21 @@
 /* Extra small devices only (phones, less than 768px) */
 @media (max-width: 767px) {
-
-}
+/*	a.navbar-brand {
+		font-size: 14px;
+	}*/
+/*	#slider1_container {
+		height: 600px;
+	}
+}*/
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
 	.pull-right-sm-up {
 		float: right;
 	}
+/*	#slider1_container {
+		height: 675px;
+	}*/
 }
 /* Small devices only (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991px) { 
