@@ -1,14 +1,23 @@
 body, .form-control {
-  background-color: #FFFFF0; /*ivory*/
+  /*background-color: #FFFFF0; */
+  /*ivory*/
 }
 
 body,
-nav a {
-  color: #502D16; /*brown*/
+nav a,
+.nav>li>a {
+  /*color: #755a44; */
+  /*brown*/
+}
+
+.nav>li>a {
+  font-size: 1.5em;
+  font-family: "Helvetica Neue";
 }
 
 .navbar-mmp {
-  background-color: #502D16; /*brown*/
+  background-color: #FFFFFF; 
+  /*ivory*/
 }
 
 /* unvisited link */
@@ -19,12 +28,12 @@ a.a-mmp:visited,
 a.a-mmp:hover,
 /* selected link */
 a.a-mmp:active {
-    color: #502D16; /*brown*/
+    color: #755a44; /*brown*/
 }
 
 nav a:hover,
 nav a:active {
-    color: #703F1F; /*2 shades lighter brown*/
+    color: #E5E5E5; 
 }
 
 .form-control:focus {
@@ -36,21 +45,94 @@ p i.fa {
 }
 
 .input-group-addon {
-  background-color: #502D16; /*brown*/
+  background-color: #755a44; /*brown*/
   color: #FFFFF0; /* ivory */
 }
 
 button.btn-mmp {
-  background-color: #502D16; /*brown*/
+  background-color: #755a44; /*brown*/
 }
 
 .btn-mmp:hover, .btn-mmp:focus, .btn-mmp:active, .btn-mmp.active, .open > .dropdown-toggle.btn-mmp,
 .nav>li>a:hover, .nav>li>a:focus,
 button.btn-mmp:hover, button.btn-mmp:focus {
- background-color: #703F1F; /*2 shades lighter brown*/
+ background-color: #FFFFFF;
+ /*border-radius: 5px;*/
+ /*#703F1F; */
+ /*2 shades lighter brown*/
 }
 
-.nav>li>a, .nav>li>a, button.btn-mmp,
+button.btn-mmp,
 button.btn-mmp:hover, button.btn-mmp:focus {
-  color: #FFFFF0; /*ivory*/
+  color: #E5E5E5;
 }
+
+
+/*#slider1_container {
+  border: 1px solid #888;
+  padding: 1px;
+}
+
+#slider1_container { 
+  padding: 5px;  
+  border: solid 1px #CCC; 
+  -moz-box-shadow: 1px 1px 25px #999; 
+  -webkit-box-shadow: 1px 1px 25px #999; 
+  box-shadow: 1px 1px 25px #999; 
+}*/
+
+/*#slider1_container img {
+   padding: 5px;
+   border: 2px solid #E5E5E5; 
+}
+*/
+
+.whiteBox
+{
+  background-color: white;
+  background-color: rgba(255, 255, 255, 0.75);
+  -webkit-box-shadow:  0px 0px 20px 0px rgba(0, 0, 0, 0.15);      
+  box-shadow:  0px 0px 20px 0px rgba(0, 0, 0, 0.15); 
+  background-color: #FFFFFF; 
+}
+
+.imgWrapper {
+  margin: 3px;
+  padding: 0;
+
+}
+
+nav.navbar-mmp {
+  /*border-bottom: 1px solid #e5e5e5;*/
+  /*#755a44; */
+  /*brown*/
+}
+
+.navbar-brand {
+  padding-top: 2px;
+}
+
+a.mmp-brand {
+  line-height: 50px;
+}
+
+nav li a {
+    border-bottom: 3px solid rgba(229,229, 229, 0);
+    transition: border-color .5s;
+}
+
+nav li:hover a {
+    border-color: rgba(229, 229, 229, 1);
+    transition: border-color .5s;
+}
+
+.nav>li>a {
+  padding-bottom: 3px;
+  margin-bottom: 12px;
+  color: #E5E5E5;
+}
+
+
+    .btn.btn-facebook { background-color: #777; } 
+
+    .btn.btn-facebook:hover { background-color: #3b5998; } 
