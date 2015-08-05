@@ -131,3 +131,7 @@ img.mini {
 .panel-body p {
   font-style: italic;
 }
+
+#packages {
+  margin-top: 40px;
+}
