@@ -3,8 +3,38 @@ body {
   font-size: 15px;
   font-weight: 300;
   line-height: 27px;
-  color: #666;
+  /*color: #666;*/
+  color: #502D16; /* BROWN */
   text-align: center;
+  background-color: #FFFFF0;
+}
+
+nav.navbar.navbar-default,
+div.form-group input, div.form-group textarea, .list-group-item, 
+.panel-body {
+  background-color: #FFFFF0;
+  color: #502D16; /* BROWN */
+}
+
+div.form-group input, div.form-group textarea {
+  border: 1px solid #502D16; /* BROWN */
+}
+
+.panel.panel-default div.panel-heading {
+  color: #502D16; /* BROWN */
+  xbackground-color: #D2E5CC; /* DARK SAGE */
+  background-color: #F3EFB9; /* LIGHT TAN */
+}
+
+div.panel-heading {
+  font-size: 1.5em;
+}
+
+div.panel-footer {
+  xbackground-color: #D2E5CC; /* DARK SAGE */
+  xbackground-color: #F3EFB9; /* LIGHT TAN */
+  background-color: #FFFFF0;
+  font-size: 1.25em;
 }
 
 .navbar-nav.nav-justified > li{
@@ -20,9 +50,17 @@ ul.nav a {
   font-size: 1.5em;
 }
 
+ul.nav.navbar-nav a {
+  color: #502D16; /* BROWN */
+}
+
 nav li:hover {
   /*background-color: #EEE;*/
   text-decoration: underline;
+}
+
+nav ul.nav.navbar-nav li:hover a {
+  color: #502D16; /* BROWN */
 }
 
 #slider1_container {
@@ -31,20 +69,20 @@ nav li:hover {
 
 .whiteBox {
   background-color: white;
-  background-color: rgba(255, 255, 255, 0.75);
+  /*background-color: rgba(255, 255, 240, 0.75);*/
   -webkit-box-shadow:  0px 0px 20px 0px rgba(0, 0, 0, 0.15);      
   box-shadow:  0px 0px 20px 0px rgba(0, 0, 0, 0.15); 
-  background-color: #FFFFFF; 
+  background-color: #FFFFF0; 
 }
 
 .imgWrapper {
   margin: 3px;
   padding: 0;
-
 }
 
 .form-control:focus {
-  border-color: #CCC;
+  /*border-color: #CCC;*/
+  border-color: #502D16; /* BROWN */
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 4px rgba(0, 0, 0, 0.6);
 }
 
@@ -53,11 +91,13 @@ address {
 }
 
 footer a {
-  color: #777;
+  /*color: #777;*/
+  color: #502D16; /* BROWN */
 }
 
 footer a:hover {
-  color: #333;
+  /*color: #333;*/
+  color: #502D16; /* BROWN */
 }
 
 #lead hr, #copyright hr {
@@ -70,16 +110,24 @@ img#logo {
 
 .btn.btn-outline {
     background: none;
-    border: 1px solid #CCC;
-    color: #555;
+    /*border: 1px solid #CCC;*/
+    border: 1px solid #502D16;
+    /*color: #555;*/
+    color: #502D16; /* BROWN */
 }
 
 .btn.btn-outline:hover {
-  background-color: #EEE;
+  /*background-color: #EEE;*/
+  xbackground-color: #D2E5CC; /* DARK SAGE */
+  background-color: #F3EFB9; /* LIGHT TAN */
 }  
 
 img.mini {
   padding: 3px;
   border: 1px solid #EEE;
   margin-top: 5px;
+}
+
+.panel-body p {
+  font-style: italic;
 }
