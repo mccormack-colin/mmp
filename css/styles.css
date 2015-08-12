@@ -1,6 +1,8 @@
 body {
-  font-family: "Roboto Slab", Georgia, Times, serif;
-  font-size: 15px;
+  xfont-family: "Roboto Slab", Georgia, Times, serif;
+  font-family: Georgia, Times, serif;
+  font-style: italic;
+  font-size: 17px;
   font-weight: 300;
   line-height: 27px;
   /*color: #666;*/
@@ -14,6 +16,31 @@ div.form-group input, div.form-group textarea, .list-group-item,
 .panel-body {
   background-color: #FFFFF0;
   color: #502D16; /* BROWN */
+}
+
+.navbar-header button {
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-bottom: 0px;
+  margin-right: auto;
+  margin-left: auto;
+  float: none;
+}
+
+.navbar-header {
+  border-bottom: none;
+}
+
+#navbar-collapse {
+  border-top: none;
+}
+
+.page-header1 {
+  margin-top: 0;
+}
+
+.list-group-item {
+  border: none;
 }
 
 div.form-group input, div.form-group textarea {
@@ -116,6 +143,20 @@ img#logo {
     color: #502D16; /* BROWN */
 }
 
+.btn.btn-menu:active,
+.btn.btn-menu:focus {
+/*  .btn-primary:hover,
+.btn-primary:active,
+.btn-primary:visited,
+.btn-primary:focus {*/
+  /*background-color: #FFFFF0;*/
+  background-color: #F3EFB9; /* LIGHT TAN */
+}
+
+.btn.btn-menu:visited {
+  background-color: #FFFFF0;
+}
+
 .btn.btn-outline:hover {
   /*background-color: #EEE;*/
   xbackground-color: #D2E5CC; /* DARK SAGE */
@@ -134,4 +175,14 @@ img.mini {
 
 #packages {
   margin-top: 40px;
+}
+
+#about img {
+  float: left;
+  padding-right: 20px;
+  padding-bottom: 5px;
+}
+
+#about p {
+  text-align: left;
 }

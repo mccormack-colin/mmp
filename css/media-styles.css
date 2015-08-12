@@ -10,7 +10,9 @@
 
 /* Small devices only (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991px) { 
-
+	ul.nav a {
+		font-size: 1.2em;
+	}
 }
 
 /* Medium devices (desktops, 992px and up) */
