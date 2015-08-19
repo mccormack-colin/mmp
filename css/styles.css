@@ -186,3 +186,9 @@ img.mini {
 #about p {
   text-align: left;
 }
+
+#pricing {
+  text-align: left;
+  margin-top: 15px;
+  font-size: .9em;
+}
