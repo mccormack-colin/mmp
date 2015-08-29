@@ -5,7 +5,9 @@
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-
+	.row.first {
+	  padding-bottom: 15px;
+	}
 }
 
 /* Small devices only (tablets, 768px and up) */

@@ -8,13 +8,13 @@ body {
   /*color: #666;*/
   color: #502D16; /* BROWN */
   text-align: center;
-  background-color: #FFFFF0;
+  /*background-color: #FFFFF0;*/
 }
 
 nav.navbar.navbar-default,
 div.form-group input, div.form-group textarea, .list-group-item, 
 .panel-body {
-  background-color: #FFFFF0;
+  /*background-color: #FFFFF0;*/
   color: #502D16; /* BROWN */
 }
 
@@ -60,7 +60,7 @@ div.panel-heading {
 div.panel-footer {
   xbackground-color: #D2E5CC; /* DARK SAGE */
   xbackground-color: #F3EFB9; /* LIGHT TAN */
-  background-color: #FFFFF0;
+  /*background-color: #FFFFF0;*/
   font-size: 1.25em;
 }
 
@@ -99,7 +99,7 @@ nav ul.nav.navbar-nav li:hover a {
   /*background-color: rgba(255, 255, 240, 0.75);*/
   -webkit-box-shadow:  0px 0px 20px 0px rgba(0, 0, 0, 0.15);      
   box-shadow:  0px 0px 20px 0px rgba(0, 0, 0, 0.15); 
-  background-color: #FFFFF0; 
+  /*background-color: #FFFFF0; */
 }
 
 .imgWrapper {
@@ -154,7 +154,7 @@ img#logo {
 }
 
 .btn.btn-menu:visited {
-  background-color: #FFFFF0;
+  /*background-color: #FFFFF0;*/
 }
 
 .btn.btn-outline:hover {
@@ -191,4 +191,8 @@ img.mini {
   text-align: left;
   margin-top: 15px;
   font-size: .9em;
+}
+
+#pricing h2 {
+  text-align: center;
 }
