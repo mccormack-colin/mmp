@@ -196,3 +196,25 @@ img.mini {
 #pricing h2 {
   text-align: center;
 }
+
+.packages ul {
+  list-style-type: none;
+}
+
+p.price {
+  margin: 20px 0 20px 0;
+  font-style: italic;
+}
+
+
+#promo-main-index a {
+  /*color: #9CBD86; */
+  /*color: #D2E5CC; /* DARK SAGE */
+  color: #502D16; /* BROWN */
+}
+
+#promo-main-index {
+  margin-bottom: 20px;
+  /*background-color: #EAE385;*/
+  background-color: #F3EFB9; /* LIGHT TAN */
+}
