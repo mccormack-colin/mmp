@@ -1,6 +1,8 @@
 /* Extra small devices only (phones, less than 768px) */
 @media (max-width: 767px) {
-
+	h1{
+        font-size: 25px;
+    }
 }
 
 /* Small devices (tablets, 768px and up) */
@@ -12,14 +14,10 @@
 
 /* Small devices only (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991px) { 
-<<<<<<< HEAD
-
-=======
-	ul.nav a {
+/*	ul.nav a {
 		font-size: 1.2em;
 	}
->>>>>>> color1
-}
+*/}
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {

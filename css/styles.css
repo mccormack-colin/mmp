@@ -8,6 +8,10 @@ body {
   text-align: center;
 }
 
+section#logo img {
+  padding: 10px;
+}
+
 nav.navbar.navbar-default,
 div.form-group input, div.form-group textarea, .list-group-item, 
 .panel-body {
@@ -181,11 +185,20 @@ p.price {
 }
 
 
-#promo-main-index a {
+#promo a {
   color: #502D16; /* BROWN */
 }
 
-#promo-main-index {
+#promo {
   margin-bottom: 20px;
   background-color: #F3EFB9; /* LIGHT TAN */
+}
+
+#about img {
+  max-width: 200px;
+  max-height: 200px;
+}
+
+#images h1 {
+  margin-top: 10px;
 }
