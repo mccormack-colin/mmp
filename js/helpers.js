@@ -6,32 +6,26 @@ $(document).ready(function () {
 
 	$('#contact-form').submit(function() {
         $.ajax({
-	        url: "https://docs.google.com/forms/d/1vUgikiGXvh6Ivdz5UlBLfQlJyALWcXhu50NwtNYm0o4/formResponse",
+	        url: "https://docs.google.com/forms/d/1o4YWNW2-z8w_Lc6FLiPJUZ4SAU9Xi0yDDYFzQyqVyZQ/formResponse",
 	        data: {
-	        	"entry.764541870": "name from ajax", 
-	        	"entry.15047546": "email from ajax", 
-	        	"entry.35397237": "phone from ajax",
-	        	"entry.198629952": "message from ajax"
+	        	"entry.1061912685": $('#inputName', this).val(), 
+	        	"entry.1262036382": $('#inputEmail', this).val(), 
+	        	"entry.1814817805": $('#inputTel', this).val(),
+	        	"entry.1142611550": $('#inputSession', this).val(),
+	        	"entry.584969321": $('#inputDate', this).val(),
+	        	"entry.1228634635": $('#inputMessage', this).val()
 	        },
 	        type: "POST",
 	        dataType: "xml",
-	        success: function() {
-	        	alert('success overall');
-	        },
-	        error: function() {
-	        	alert('error overall');
-	        },
-	        complete: function() {
-	        	alert('complete overall');
-	        },
 	        statusCode: {
 	            0: function() {
-	                //Success message
-	                alert('succcess 0');
-	            },
-	            200: function() {
-	                //Success Message
-	                alert('succcess 200');
+	                $('#inputName', '#contact-form').val(""); 
+	        		$('#inputEmail', '#contact-form').val("");
+	        		$('#inputTel', '#contact-form').val("");
+	        		$('#inputSession', '#contact-form').val("");
+	        		$('#inputDate', '#contact-form').val("");
+	        		$('#inputMessage', '#contact-form').val("");
+	                $("#confirmModal").modal();
 	            }
 	        }
 	    });

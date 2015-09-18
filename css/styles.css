@@ -191,7 +191,7 @@ p.price {
 
 #promo {
   margin-bottom: 20px;
-  background-color: #F3EFB9; /* LIGHT TAN */
+  background-color: #F7EBE3; /* PINK */
 }
 
 #about img {
@@ -201,4 +201,8 @@ p.price {
 
 #images h1 {
   margin-top: 10px;
+}
+
+h4.modal-title {
+  font-weight: bold;
 }
