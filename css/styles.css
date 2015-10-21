@@ -206,3 +206,8 @@ p.price {
 h4.modal-title {
   font-weight: bold;
 }
+
+#book a:hover {
+  /*background-color: #EEE;*/
+  text-decoration: none;
+}
