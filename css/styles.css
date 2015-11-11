@@ -161,8 +161,15 @@ img.mini {
   padding-bottom: 5px;
 }
 
-#about p {
+#about p,
+#content p, 
+#content li {
   text-align: left;
+}
+
+#content h3 {
+  text-align: left;
+  text-decoration: underline;
 }
 
 #pricing {
@@ -185,8 +192,10 @@ p.price {
 }
 
 
-#promo a {
+#promo a,
+#content a {
   color: #502D16; /* BROWN */
+  text-decoration: underline;
 }
 
 #promo {
