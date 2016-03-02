@@ -230,6 +230,10 @@ section#pricing p.pricing-detail {
   margin-bottom: 0px;
 }
 
+section#pricing p.pricing-detail-last {
+  margin-left: 30px;
+}
+
 #create-collection {
   margin-left: 30px;
 }
